@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-size: 30px;
 }
 @font-face {
     font-family: 'digitalCalculator';
@@ -19,9 +20,7 @@ html, body {
 
 #flex-container{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    justify-content: center;    
 }
 
 #calculator{
@@ -39,7 +38,7 @@ html, body {
     max-width: 460px;
     width: 500px;
     margin: 20px 20px 0px 20px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     height: 150px;
     border-radius: 10px;
 
@@ -61,7 +60,7 @@ html, body {
     display:flex;
     justify-content: flex-start;
     max-height: 75px;
-    max-width: 300px;
+    max-width: 400px;
 }
 
 #bottom{
@@ -75,7 +74,7 @@ button{
 }
 
 .wide-btn{
-    width: 150px;
+    width: 155px;
     height: 75px;
     margin: 5px;
     
@@ -86,11 +85,12 @@ button{
     flex-direction: column;
     align-items: flex-end;
     margin: 20px;
+    margin-top: 5px;
     padding: 0;
 }
 
 .btn{
-    height: 80px;
+    height: 90px;
     width: 100px;
     margin: 0 5px 10px 5px;
 }
@@ -111,5 +111,5 @@ button{
     align-self: flex-start;
     margin: 0px 20px 20px 20px;
     max-height: 300px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
