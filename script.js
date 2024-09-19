@@ -23,8 +23,12 @@ del.addEventListener("click", () => userInput.textContent = userInput.textConten
 
 //calculations
 
-let result = 0;
+const divide = document.querySelector("#divide");
+const multiply = document.querySelector("#multiply");
+const add = document.querySelector("#add");
+const subrract = document.querySelector("#subtract");
 
-const divide = function(result){
 
-}
+divide.addEventListener("click", function(){
+
+})
