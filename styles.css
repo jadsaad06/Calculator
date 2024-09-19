@@ -51,8 +51,13 @@ html, body {
 
 #user-input{
     max-width: 460px;
+    max-height: 120px;
     font-size: 60px;
     font-family: 'digitalCalculator', 'Times New Roman', Times, serif;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    word-break: break-word;
+    overflow: hidden;
 }
 
 #misc-buttons{
@@ -68,6 +73,7 @@ html, body {
     flex-direction: row;
     justify-content: space-between;
 }
+
 button{
     border-radius:10px;
     border: none;
