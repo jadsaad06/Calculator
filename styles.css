@@ -28,7 +28,7 @@ html, body {
     border-radius: 10px;
     border-color: grey;
     background-color: black;
-    max-height: 650px;
+    max-height: 700px;
     max-width: 500px;
     flex-direction: column;
 }
@@ -83,7 +83,8 @@ button{
     width: 155px;
     height: 75px;
     margin: 5px;
-    
+    background-color: grey;
+    border-radius: 5px;
 }
 
 #operations{
@@ -93,6 +94,7 @@ button{
     margin: 20px;
     margin-top: 5px;
     padding: 0;
+    max-height: 390px;
 }
 
 .btn{
@@ -106,8 +108,8 @@ button{
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    max-height: 450px;
-    max-width: 100px;
+    max-height: 600px;
+    max-width: 150px;
 }
 
 #numbers{
@@ -118,4 +120,16 @@ button{
     margin: 0px 20px 20px 20px;
     max-height: 300px;
     margin-top: 20px;
+}
+#equal-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#equals{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
 }
